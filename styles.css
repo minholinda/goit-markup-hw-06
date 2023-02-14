@@ -536,8 +536,7 @@ img {
 }
 
 .subscribe {
-    margin-left: 80px;
-    display: flex;
+    margin-left: 80px;;
 }
 
 .subscribe-title {
@@ -547,6 +546,10 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+
+.subscribe-form {
+    display: flex;
 }
 
 .subscribe-input {
@@ -569,7 +572,9 @@ img {
 .subscribe-btn {
     margin-left: 24px;
     padding-left: 24px;
-    padding-right: 64px;
+    padding-right: 24px;
+    align-items: center;
+    justify-content: space-between;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
@@ -577,11 +582,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: 1px solid transparent;
-    cursor: pointer;
+    gap: 16px;
+    border-radius: 4px;
 }
 
 .send-icon {
-    margin-right: 183px;
 }
 
 /*-----PORTFOLIO------ */
